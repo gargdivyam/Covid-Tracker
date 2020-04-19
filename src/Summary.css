@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(250, 247, 247);
+    border-bottom: 4px solid orangered;
+  }
+  
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeaths,
+.TotalRecovered {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.NewConfirmed{
+color: orangered;
+}
+.TotalConfirmed{
+color: blueviolet;
+}
+.NewDeaths{
+color: greenyellow;
+}
+.TotalDeaths{
+color: orchid;
+}
+.TotalRecovered{
+color: maroon;
+}

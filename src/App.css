@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: sans-serif;
+}
+table{
+  border-collapse: separate;
+  width: 60%;
+  margin: 0 auto;
+  border-spacing: 0 12px;
+}
+table thead tr{
+  background: white;
+}
+table thead tr th{
+  padding: 16px 10px;
+  text-align: left;
+}
+table tbody tr{
+  background: white;
+}
+table tbody tr td{
+  padding: 16px 10px;
+  text-align: left;
+}
